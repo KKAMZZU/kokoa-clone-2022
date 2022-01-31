@@ -54,3 +54,26 @@
   display: block;
   margin-bottom: 10px;
 }
+
+.user-component__subtitle2 {
+  color: tomato;
+  border: tomato 1px solid;
+  border-radius: 50%;
+  width: 13px;
+  height: 13px;
+  font-weight: 600;
+  font-size: 12px;
+  text-align: center;
+  margin-top: 6px;
+  margin-left: 5px;
+}
+
+.user-component__subtitle-dom {
+  display: flex;
+  align-items: center;
+}
+
+.user-component__column > i {
+  color: black;
+  opacity: 0.7;
+}
